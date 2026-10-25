@@ -1,0 +1,152 @@
+/* swiper */
+.swiper-container {
+  width: 100%;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  scroll-margin-top: 40px;
+}
+
+.swiper-title {
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 1.85rem);
+  color: var(--text-color);
+  font-weight: 800;
+  text-shadow: 0 5px 5px #00000022;
+  margin-bottom: 40px;
+}
+
+.swiper-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-mentors {
+  width: 100%;
+  max-width: 1080px;
+  padding-bottom: 60px !important;
+  overflow: hidden;
+  flex: 1;
+  min-width: 0;
+  text-shadow: 0 5px 5px #00000022;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.mentor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mentor-image-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.mentor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mentor-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282828;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.mentor-role {
+  font-size: 14px;
+  color: #282828aa;
+  text-align: center;
+}
+
+.swiper-container .swiper-pagination {
+  bottom: 10px !important;
+}
+
+.swiper-container .swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: #d1d5db !important;
+  opacity: 1 !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  width: 28px !important;
+  border-radius: 10px !important;
+  background: var(--primary-color) !important;
+}
+
+.custom-swiper-button {
+  position: static !important;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex: 0 0 48px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  margin: 0;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+  z-index: 10;
+}
+
+.custom-swiper-button::after {
+  display: none;
+}
+
+.custom-swiper-button svg {
+  width: 32px;
+  height: 32px;
+  display: block;
+
+  transition: transform 0.25s ease;
+}
+
+.swiper-button-prev.custom-swiper-button svg {
+  transform: rotate(180deg);
+}
+
+.custom-swiper-button:hover {
+  opacity: 0.9;
+}
+
+.swiper-button-prev.custom-swiper-button:hover svg {
+  transform: rotate(180deg) scale(1.08);
+}
+
+.swiper-button-next.custom-swiper-button:hover svg {
+  transform: scale(1.08);
+}
+
+@media (max-width: 800px) {
+  .swiper-content {
+    display: block;
+  }
+
+  .custom-swiper-button {
+    display: none !important;
+  }
+}

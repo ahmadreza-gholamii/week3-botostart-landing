@@ -1,0 +1,95 @@
+
+/* section-topics */
+.section-topics {
+  background: var(--primary-color);
+  width: 100%;
+  padding: 5px 0px 20px;
+  overflow: hidden;
+}
+.section-topics__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+.section-topics__header-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.section-topics__header-title {
+  font-size: clamp(1.5rem, 2vw, 1.85rem);
+  color: var(--background-color);
+  font-weight: bold;
+}
+.section-topics__details {
+  background-color: var(--background-color);
+  border-radius: 15px;
+  width: 95%;
+  margin: 0 auto 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+.section-topics__details-summary {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.section-topics__details-summary-title {
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+  color: var(--text-color);
+  font-weight: 700;
+}
+.section-topics__details-summary-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+.section-topics__details-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: disc;
+  color: var(--text-color);
+  line-height: 1.8;
+  margin-right: 50px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding-bottom: 0;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    padding 0.35s ease;
+}
+.section-topics__details--open .section-topics__details-list {
+  max-height: 500px;
+  opacity: 1;
+  padding-bottom: 20px;
+}
+.section-topics__details-summary::-webkit-details-marker {
+  display: none;
+}
+.section-topics__details[open] .section-topics__details-summary-title {
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+.section-topics__details[open] .section-topics__details-summary-icon {
+  transform: rotate(180deg);
+}
+@media (min-width: 900px) {
+  
+  .section-topics {
+    margin: 0px 15px;
+    border-radius: 15px;
+    width: calc(100% - 30px);
+  }
+}

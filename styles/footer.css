@@ -1,0 +1,237 @@
+.section-footer {
+  width: 100%;
+  direction: rtl;
+  padding: 15px;
+}
+
+.section-footer-container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  color: #111;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+}
+
+.section-footer-one {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-images img {
+  width: 110px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-title-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-title-wrapper {
+  text-align: center;
+}
+
+.footer-title-wrapper h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #092f68;
+}
+
+.footer-title-wrapper p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--hover-color);
+}
+
+.footer-title-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title-image img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.footer-description {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.section-footer-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: var(--background-color);
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 0;
+}
+
+.section-footer-two img {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: #00000010;
+  border-radius: 20px;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.section-footer-two img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.section-footer-three {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-link-page {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.footer-link-page-partOfSite,
+.footer-link-page-otherPages {
+  min-width: 0;
+}
+
+.footer-link-page h4,
+.footer-link-courses h4 {
+  margin: 0 0 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.section-footer li {
+  font-size: 14px;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.section-footer li:hover {
+  color: var(--hover-color);
+}
+
+.footer-link-courses {
+  width: 100%;
+}
+
+.footer-link-courses h4 {
+  margin-bottom: 20px;
+}
+
+.footer-link-courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.footer-link-courses h4 {
+  grid-column: 1 / -1;
+}
+
+.section-footer-heart {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-footer-heart span {
+  padding: 3px 5px;
+  border-radius: 8px;
+  background-color: #e4e6ea;
+  color: #52729a;
+  font-weight: 700;
+}
+
+@media (min-width: 930px) {
+  .section-footer-one {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px 30px;
+  }
+
+  .footer-images img {
+    width: 110px;
+    height: 140px;
+    object-fit: contain;
+  }
+
+  .footer-title-container {
+    justify-content: flex-start;
+  }
+
+  .footer-description {
+    text-align: right;
+    padding: 0;
+  }
+
+  .section-footer-two {
+    justify-content: flex-start;
+    padding-right: 25px;
+  }
+
+  .section-footer-three {
+    flex-direction: row;
+    padding-right: 30px;
+  }
+  .footer-link-page h4,
+  .footer-link-page li,
+  .footer-link-courses h4,
+  .footer-link-courses li {
+    text-align: right;
+  }
+}

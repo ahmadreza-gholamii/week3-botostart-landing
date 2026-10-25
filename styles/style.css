@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+body {
+  font-family: "Yekan Bakh", sans-serif;
+  background-color: #fafafa;
+  overflow-x: clip;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+:root {
+  --primary-color: #8a6ef8;
+  --hover-color: #7151ee;
+  --primary-light: #efe2fc;
+
+  --text-color: #282828;
+  --text-muted: #282828c6;
+
+  --background-color: #fafafa;
+  --surface-color: #f9f9f9;
+
+  --border-color: #0000001b;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+.landing {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;  
+  
+}
+.intro {
+  width: 100%;
+}
+
+.section {
+  scroll-margin-top: 80px;
+}

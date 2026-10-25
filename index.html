@@ -1,0 +1,1162 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/font-face.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <link rel="stylesheet" href="./styles/summary.css" />
+    <link rel="stylesheet" href="./styles/features.css" />
+    <link rel="stylesheet" href="./styles/road.css" />
+    <link rel="stylesheet" href="./styles/topics.css" />
+    <link rel="stylesheet" href="./styles/mentors.css" />
+    <link rel="stylesheet" href="./styles/swiper.css" />
+    <link rel="stylesheet" href="./styles/price.css" />
+    <link rel="stylesheet" href="./styles/questions.css" />
+    <link rel="stylesheet" href="./styles/social.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/support.css" />
+    <link rel="stylesheet" href="./styles/comments.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <title>لندینگ بوتو استارت</title>
+  </head>
+
+  <body>
+    <div class="landing">
+      <div class="intro">
+        <!-- Header -->
+        <header class="header">
+          <div class="header-logo">
+            <a href="#"
+              ><img class="header-image" src="./images/logo.png" alt="لوگو"
+            /></a>
+          </div>
+          <button class="header-hamburger" id="hamburgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="header-nav">
+            <li><a class="header-link" href="#">صفحه اصلی</a></li>
+            <li><a class="header-link" href="#">دوره‌ها</a></li>
+            <li class="header-link-fire">
+              <a class="header-link" href="#">بوت کمپ </a>
+              <img class="header-image" src="./images/fire.svg" alt="فایر" />
+            </li>
+            <li><a class="header-link" href="#">نظرات دانشجویان</a></li>
+            <li><a class="header-link" href="#">درباره ما</a></li>
+          </ul>
+
+          <div class="header-icons">
+            <a class="header-icons__details" href="#">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M4.5 5H18.2768C19.0446 5 19.526 5.82948 19.1451 6.49614L16.5758 10.9923C16.2198 11.6154 15.5571 12 14.8394 12H8M8 12L6.45625 14.47C6.03997 15.136 6.51881 16 7.30425 16H18M8 12L4.05279 4.10557C3.714 3.428 3.02148 3 2.26393 3H2M8 20C8 20.5523 7.55228 21 7 21C6.44772 21 6 20.5523 6 20C6 19.4477 6.44772 19 7 19C7.55228 19 8 19.4477 8 20ZM18 20C18 20.5523 17.5523 21 17 21C16.4477 21 16 20.5523 16 20C16 19.4477 16.4477 19 17 19C17.5523 19 18 19.4477 18 20Z"
+                    stroke="#7151ee"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <a class="header-icons__details" href="#">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+                    stroke="#7151ee"
+                    stroke-width="2.16"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </header>
+        <div class="menu-overlay" id="menuOverlay"></div>
+        <!-- Mobile Header -->
+        <aside class="mobile-menu" id="mobileMenu">
+          <div class="mobile-menu__content">
+            <div class="mobile-logo">
+              <a href="#"><img src="./images/logo.png" alt="لوگو" /></a>
+            </div>
+            <ul class="mobile-menu__nav">
+              <li>
+                <a class="header-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-house-icon lucide-house"
+                  >
+                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                    <path
+                      d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                    />
+                  </svg>
+                  <span>صفحه اصلی</span></a
+                >
+              </li>
+              <li>
+                <a class="header-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-graduation-cap-icon lucide-graduation-cap"
+                  >
+                    <path
+                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                    />
+                    <path d="M22 10v6" />
+                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                  </svg>
+                  <span>دوره‌ها</span>
+                </a>
+              </li>
+              <li class="header-link-fire">
+                <a class="header-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-school-icon lucide-school"
+                  >
+                    <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
+                    <path d="M18 4.933V21" />
+                    <path d="m4 6 7.106-3.79a2 2 0 0 1 1.788 0L20 6" />
+                    <path
+                      d="m6 11-3.52 2.147a1 1 0 0 0-.48.854V19a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a1 1 0 0 0-.48-.853L18 11"
+                    />
+                    <path d="M6 4.933V21" />
+                    <circle cx="12" cy="9" r="2" />
+                  </svg>
+                  <span>بوت کمپ</span>
+                </a>
+                <img class="header-image" src="./images/fire.svg" alt="فایر" />
+              </li>
+              <li>
+                <a class="header-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-message-square-text-icon lucide-message-square-text"
+                  >
+                    <path
+                      d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"
+                    />
+                    <path d="M7 11h10" />
+                    <path d="M7 15h6" />
+                    <path d="M7 7h8" />
+                  </svg>
+                  <span>نظرات دانشجویان</span>
+                </a>
+              </li>
+              <li>
+                <a class="header-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users-round-icon lucide-users-round"
+                  >
+                    <path d="M18 21a8 8 0 0 0-16 0" />
+                    <circle cx="10" cy="8" r="5" />
+                    <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+                  </svg>
+                  <span>درباره ما</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="mobile-menu__button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-log-in-icon lucide-log-in"
+            >
+              <path d="m10 17 5-5-5-5" />
+              <path d="M15 12H3" />
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+            </svg>
+            <span>ورود</span>
+          </button>
+        </aside>
+
+        <!-- Hero -->
+        <section class="hero">
+          <div class="hero-text">
+            <h1>
+              بوت کمپ فرانت اند <br />
+              راهی به سوی آینده‌ای بهتر
+            </h1>
+            <p>از مبتدی تا حرفه‌ای٬ کد بزن٬ یاد بگیر و آینده‌ات را بساز!</p>
+          </div>
+
+          <div class="hero-image-mobile">
+            <img src="./images/hero-image.svg" alt="عکس لندینگ" />
+          </div>
+          <button class="hero-button">پیش ثبت نام رایگان</button>
+        </section>
+
+        <!-- hero desktop -->
+        <section class="desktop-hero">
+          <div class="hero-text">
+            <h1>
+              بوت کمپ فرانت اند <br />
+              راهی به سوی آینده‌ای بهتر
+            </h1>
+            <p>از مبتدی تا حرفه‌ای٬ کد بزن٬ یاد بگیر و آینده‌ات را بساز!</p>
+            <button class="hero-button">پیش ثبت نام رایگان</button>
+          </div>
+          <div class="hero-image">
+            <div class="rocket-circle rocket-circle-outer"></div>
+            <div class="rocket-circle rocket-circle-middle"></div>
+            <div class="rocket-circle rocket-circle-inner"></div>
+
+            <img
+              src="./images/logos_css.svg"
+              alt="css"
+              class="tech-icon tech-css"
+            />
+            <img
+              src="./images/logos_html.svg"
+              alt="html"
+              class="tech-icon tech-html"
+            />
+            <img
+              src="./images/logos-react.svg"
+              alt="react"
+              class="tech-icon tech-react"
+            />
+            <img
+              src="./images/logos-js.svg"
+              alt="js"
+              class="tech-icon tech-js"
+            />
+            <img
+              src="./images/logos-next.svg"
+              alt="next"
+              class="tech-icon tech-next"
+            />
+            <img
+              src="./images/logos_figma.svg"
+              alt="figma"
+              class="tech-icon tech-figma"
+            />
+            <img
+              src="./images/logos_git.svg"
+              alt="git"
+              class="tech-icon tech-git"
+            />
+            <img
+              src="./images/logos_swagger.svg"
+              alt="swagger"
+              class="tech-icon tech-sawgger"
+            />
+
+            <img src="./images/rocket.svg" alt="راکت" class="rocket" />
+          </div>
+          <div class="hero-image-desktop">
+            <img src="./images/hero-image.svg" alt="عکس لندینگ" />
+          </div>
+        </section>
+      </div>
+
+      <!-- Main -->
+      <main class="main">
+        <div class="main-container">
+          <!-- Section Menu -->
+          <section class="section-menu">
+            <ul class="section-menu__list">
+              <li class="section-menu__item section-menu__item--active">
+                <a href="#section-summary">معرفی</a>
+              </li>
+              <li class="section-menu__item">
+                <a href="#section-features">ویژگی‌ها</a>
+              </li>
+              <li class="section-menu__item">
+                <a href="#section-questions">برای چه کسانی؟</a>
+              </li>
+              <li class="section-menu__item">
+                <a href="#section-topics">سرفصل‌ها</a>
+              </li>
+              <li class="section-menu__item">
+                <a href="#section-mentors">تیم منتورینگ</a>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Section Summary -->
+          <section class="section section-summary" id="section-summary">
+            <h2 class="section-summary__title">چرا بوت‌کمپ فرانت اند؟</h2>
+            <p class="section-summary__text">
+              وب‌سایت ما به‌صورت تخصصی برای آموزش مهارت‌های فرانت‌اند طراحی شده
+              است تا هر فردی، از مبتدی تا علاقه‌مندان پیشرفته، بتواند با استفاده
+              از دوره‌های متنوع و پروژه‌محور، به یک توسعه‌دهنده فرانت‌اند
+              حرفه‌ای تبدیل شود. در این بوت‌کمپ، تمرکز اصلی ما بر آموزش اصولی
+              HTML، CSS، JavaScript و فریم‌ورک‌هایی مانند React و Vue است.
+              <br />
+              همه دوره‌ها به‌صورت مرحله به مرحله طراحی شده‌اند و شامل پروژه‌های
+              واقعی و تمرینات عملی هستند که مهارت‌های یادگرفته‌شده را مستقیماً
+              به کار می‌گیرند. همچنین، تیم مربیان و متخصصین ما در طول دوره، شما
+              را همراهی کرده و با ارائه بازخوردهای سازنده، در هر مرحله از
+              یادگیری، شما را به سمت بهتر شدن هدایت می‌کنند.
+            </p>
+          </section>
+
+          <!-- Section Features -->
+          <section class="section section-features" id="section-features">
+            <h2 class="section-features__title">
+              ویژگی‌های <span>بوت‌کمپ</span>
+            </h2>
+            <div class="section-features__container">
+              <div class="section-features__card">
+                <img src="./images/101.svg" alt="برنامه ریزی دقیق و منظم" />
+                <h3>برنامه ریزی دقیق و منظم</h3>
+                <p>
+                  مدت زمان این بوت‌کمپ ۷ ماه است و برای تمام روز های این ۷ ماه
+                  برنامه ریزی شده است تا بتوانید در کمترین زمان بالاترین یادگیری
+                  را داشته باشید.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img src="./images/102.svg" alt="بروز و آپدیت" />
+                <h3>بروز و آپدیت</h3>
+                <p>
+                  تمام آموزش ها و دوره هایی که در این بوت‌کمپ در اختیار شما قرار
+                  داده میشوند کاملا آپدیت و بر اساس آخرین آپدیت هر تکنولوژی می
+                  باشد.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img src="./images/103.svg" alt="شتیبانی و منتورینگ" />
+                <h3>شتیبانی و منتورینگ</h3>
+                <p>
+                  در طول فرآیند یادگیری، یک تیم کامل پشتیبانی و منتورینگ به
+                  همراه استاد کنار شما است تا هر گونه چالش و مشکلی را در
+                  سریعترین زمان ممکن حل کنیم.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img src="./images/104.svg" alt="پیگیری و استمرار" />
+                <h3>پیگیری و استمرار</h3>
+                <p>
+                  کوچکترین کم کاری و شانه خالی کردن شما توسط تیم ما پیگیری میشود
+                  تا دلیل آن را مشخص و حل کنیم و یک آموزش مستمر را پیش ببریم.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img src="./images/105.svg" alt="پروژه محور" />
+                <h3>پروژه محور</h3>
+                <p>
+                  علاوه بر تمرین هایی که در حین آموزش انجام میدهید، یک سری پروژه
+                  جدا هم در طول بوت‌کمپ به شما داده میشود که باید در یک زمان
+                  مشخص انجام دهید.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img src="./images/106.svg" alt="آشنایی با مسیر های شغلی" />
+                <h3>آشنایی با مسیر های شغلی</h3>
+                <p>
+                  در پایان بوت‌کمپ، این فرصت را خواهید داشت که در تیم ما استخدام
+                  شوید و یا دوره کارآموزی را بگذرانید.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img src="./images/107.svg" alt="تعامل و شبکه سازی" />
+                <h3>تعامل و شبکه سازی</h3>
+                <p>
+                  در این بوت کمپ بر اساس آنچه که نیاز بازار کار است به شما آموزش
+                  داده میشود تا در آینده هیچ کمبودی نداشته باشید.
+                </p>
+              </div>
+              <div class="section-features__card">
+                <img
+                  src="./images/108.svg"
+                  alt="کارگاه های آنلاین و رفع اشکال"
+                />
+                <h3>کارگاه های آنلاین و رفع اشکال</h3>
+                <p>
+                  علاوه بر آموزشی که پیش میبریم، یک سری کارگاه آنلاین هم خواهیم
+                  داشت تا به صورت گروهی، پروژه های مختلفی را پیاده و رفع اشکال
+                  کنیم و راجع به مشکلات و سوالات شما بحث کنیم.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Section Road -->
+          <section class="section section-road" dir="ltr">
+            <h2 class="section-road__title">
+              برنامه کلی <span> بوت‌کمپ </span>در یک نگاه
+            </h2>
+            <div class="section-road__container">
+              <svg
+                width="67"
+                height="656"
+                viewBox="0 0 67 656"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="section-road__line-svg section-road__line-svg--vertical"
+              >
+                <path
+                  d="M66.167 0.282715C66.167 0.282715 1.39008 94.768 0.509286 164.142C-0.360423 232.643 60.483 259.494 60.416 328.001C60.3491 396.326 -0.289442 423.04 0.509284 491.36C1.32035 560.735 66.1669 655.219 66.1669 655.219"
+                  stroke="black"
+                  stroke-opacity="0.5"
+                  stroke-dasharray="8 8"
+                />
+              </svg>
+
+              <svg
+                width="656"
+                height="67"
+                viewBox="0 0 656 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="section-road__line-svg section-road__line-svg--horizontal"
+              >
+                <path
+                  d="M0.282715 66.167C0.282715 66.167 94.768 1.39008 164.142 0.509286C232.643 -0.360423 259.494 60.483 328.001 60.416C396.326 60.3491 423.04 -0.289442 491.36 0.509284C560.735 1.32035 655.219 66.1669 655.219 66.1669"
+                  stroke="black"
+                  stroke-opacity="0.5"
+                  stroke-dasharray="8 8"
+                />
+              </svg>
+              <div class="section-road__card section-road__card-content--html">
+                <img src="./images/HTML-CSS.svg" alt="HTML CSS" />
+                <div class="section-road__card-content">
+                  <h3>HTML,CSS</h3>
+                  <p>
+                    در سه هفته اول بوت‌کمپ مباحث html&css را پیش میبریم تا بعد
+                    از این سه هفته بتوانید هر سایتی‌ با هر ظاهری‌ پیاده کنید.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="section-road__card section-road__card-content--javascript"
+              >
+                <img src="./images/JavaScript.svg" alt="JavaScript" />
+                <div class="section-road__card-content">
+                  <h3>JavaScript</h3>
+                  <p>
+                    در دو ماه بعدی به جاوااسکریپت میپردازیم تا بتوانیم صفحاتی
+                    پویا و داینامیک را ایجاد کنیم.
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-road__card section-road__card-content--git">
+                <img src="./images/Git-Github.svg" alt="Git" />
+                <div class="section-road__card-content">
+                  <h3>Git,Githab</h3>
+                  <p>
+                    گیت و گیت‌هاب را فراموش نکنیم، چون برای کار تیمی و پروژه
+                    ضروری است. به مدت یک هفته گیت و گیت‌هاب را یاد خواهیم گرفت.
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-road__card section-road__card-content--react">
+                <img src="./images/ReactJs.svg" alt="React" />
+                <div class="section-road__card-content">
+                  <h3>React</h3>
+                  <p>
+                    در دو ماه بعدی به سراغ ریکت میرویم که این روز ها در اکثر
+                    سایت ها استفاده میشود.
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-road__card section-road__card-content--next">
+                <img src="./images/NextJs.svg" alt="Next" />
+                <div class="section-road__card-content">
+                  <h3>Next</h3>
+                  <p>
+                    دو ماه پایانی هم به نکست اختصاص داده شده است تا به صورت کامل
+                    برای کار در پروژه های واقعی آماده شوید.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Section Topics -->
+          <section class="section section-topics" id="section-topics">
+            <div class="section-topics__header">
+              <img
+                class="section-topics__header-icon"
+                src="./images/topics-icon.svg"
+                alt="سرفصل ها"
+              />
+              <h2 class="section-topics__header-title">سرفصل ها</h2>
+            </div>
+            <div>
+              <details class="section-topics__details">
+                <summary class="section-topics__details-summary">
+                  <img
+                    class="section-topics__details-summary-icon"
+                    src="./images/arrow.svg"
+                    alt="arrow-down"
+                  />
+                  <h3 class="section-topics__details-summary-title">
+                    HTML,CSS
+                  </h3>
+                </summary>
+                <ul class="section-topics__details-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Flex box & Grid</li>
+                  <li>Responsive Design</li>
+                  <li>Sass/SCSS</li>
+                </ul>
+              </details>
+              <details class="section-topics__details">
+                <summary class="section-topics__details-summary">
+                  <img
+                    class="section-topics__details-summary-icon"
+                    src="./images/arrow.svg"
+                    alt="arrow-down"
+                  />
+                  <h3 class="section-topics__details-summary-title">
+                    JavaScript
+                  </h3>
+                </summary>
+                <ul class="section-topics__details-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Flex box & Grid</li>
+                  <li>Responsive Design</li>
+                  <li>Sass/SCSS</li>
+                </ul>
+              </details>
+              <details class="section-topics__details">
+                <summary class="section-topics__details-summary">
+                  <img
+                    class="section-topics__details-summary-icon"
+                    src="./images/arrow.svg"
+                    alt="arrow-down"
+                  />
+                  <h3 class="section-topics__details-summary-title">
+                    JavaScript
+                  </h3>
+                </summary>
+                <ul class="section-topics__details-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Flex box & Grid</li>
+                  <li>Responsive Design</li>
+                  <li>Sass/SCSS</li>
+                </ul>
+              </details>
+              <details class="section-topics__details">
+                <summary class="section-topics__details-summary">
+                  <img
+                    class="section-topics__details-summary-icon"
+                    src="./images/arrow.svg"
+                    alt="arrow-down"
+                  />
+                  <h3 class="section-topics__details-summary-title">React</h3>
+                </summary>
+                <ul class="section-topics__details-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Flex box & Grid</li>
+                  <li>Responsive Design</li>
+                  <li>Sass/SCSS</li>
+                </ul>
+              </details>
+              <details class="section-topics__details">
+                <summary class="section-topics__details-summary">
+                  <img
+                    class="section-topics__details-summary-icon"
+                    src="./images/arrow.svg"
+                    alt="arrow-down"
+                  />
+                  <h3 class="section-topics__details-summary-title">Next.js</h3>
+                </summary>
+                <ul class="section-topics__details-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Flex box & Grid</li>
+                  <li>Responsive Design</li>
+                  <li>Sass/SCSS</li>
+                </ul>
+              </details>
+            </div>
+          </section>
+
+          <!-- Section Mentors -->
+          <section class="section section-mentors">
+            <h2 class="section-mentors__title">از چه کسی یاد میگیرید ؟</h2>
+            <div class="section-mentors__container">
+              <img
+                class="section-mentors__container-icon"
+                src="./images/teacher-image.png"
+                alt="تیم منتورینگ"
+              />
+              <div class="section-mentors__info">
+                <div class="section-mentors__info-header">
+                  <h3 class="section-mentors__info-name">میلاد عظمی</h3>
+                  <p class="section-mentors__info-role">
+                    برنامه نویس فرانت اند
+                  </p>
+                </div>
+
+                <p class="section-mentors__info-description">
+                  سلام بچه ها،من میلادم و از سال ۹۵ مشغول برنامه نویسی فرانت اند
+                  و ریکت هستم و همچنین در سال ۹۸ وارد حوزه آموزش نیز شدم و چندین
+                  دوره در سایت های بزرگ ایرانی منتشر کردم و در نهایت تصمیم به
+                  تدریس در پلتفرم اختصاصی خودم ینی بوتواستارت گرفتم. تمام تلاشم
+                  اینه تا دوره هایی رو بهتون ارایه بدم که علاوه بر مباحث مهم
+                  حاوی پروژه و تجربه باشه تا مسیر ورود شما به بازار کار رو
+                  راحتتر کنم.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- swiper -->
+          <section class="swiper-container" id="section-mentors">
+            <h2 class="swiper-title">چه کسانی شما را همراهی می‌کنند؟</h2>
+            <div class="swiper-content">
+              <div class="swiper-button-prev custom-swiper-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M14.3599 11.3601L21.0933 16.4134V23.8934C21.0933 25.1734 19.5466 25.8134 18.6399 24.9068L11.7333 18.0001C10.6266 16.8934 10.6266 15.0934 11.7333 13.9868L14.3599 11.3601Z"
+                    fill="#8A6EF8"
+                  />
+
+                  <path
+                    d="M21.0933 8.10657V16.4132L14.3599 11.3599L18.6399 7.0799C19.5466 6.18657 21.0933 6.82657 21.0933 8.10657Z"
+                    fill="#8A6EF8"
+                  />
+                </svg>
+              </div>
+              <div class="swiper swiper-mentors">
+                <div class="swiper-wrapper" id="mentors-container"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="swiper-button-next custom-swiper-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M14.3599 11.3601L21.0933 16.4134V23.8934C21.0933 25.1734 19.5466 25.8134 18.6399 24.9068L11.7333 18.0001C10.6266 16.8934 10.6266 15.0934 11.7333 13.9868L14.3599 11.3601Z"
+                    fill="#8A6EF8"
+                  />
+
+                  <path
+                    d="M21.0933 8.10657V16.4132L14.3599 11.3599L18.6399 7.0799C19.5466 6.18657 21.0933 6.82657 21.0933 8.10657Z"
+                    fill="#8A6EF8"
+                  />
+                </svg>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Section Price -->
+        <section class="section-price">
+          <h2 class="section-price__title">ثبت نام در بوت‌کمپ</h2>
+          <div class="section-price__pricing">
+            <div class="section-price__info">
+              <div class="section-price__item--base">
+                <p>هزینه اصلی:</p>
+                <span>۲۰,۰۰۰,۰۰۰ تومان</span>
+              </div>
+              <div class="section-price__item--discount">
+                <p>هزینه در جشنواره:</p>
+                <span>۱۷,۰۰۰,۰۰۰ تومان</span>
+              </div>
+            </div>
+            <button class="section-price__button section-price__button-mobile">
+              ثبت نام
+            </button>
+            <button class="section-price__button section-price__button-desktop">
+              پیش ثبت نام رایگان
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <!-- section questions -->
+      <section class="section-questions" id="section-questions">
+        <h2 class="section-questions__title">سوالات متداول</h2>
+        <div class="section-questions__container">
+          <img
+            class="section-questions__image section-questions__image--one"
+            src="./images/metal-question.svg"
+            alt="question-icon"
+          />
+          <div class="section-questions__details-container">
+            <details class="section-questions__details">
+              <summary class="section-questions__details-summary">
+                <img
+                  class="section-questions__details-summary-icon"
+                  src="./images/arrow.svg"
+                  alt="arrow-down"
+                />
+
+                <div class="section-questions__details-summary-title-wrapper">
+                  <img
+                    class="section-questions__details-summary-title-icon"
+                    src="./images/message-question.svg"
+                    alt="question"
+                  />
+                  <h3 class="section-questions__details-summary-title">
+                    تفاوت بوت کمپ و دوره ها؟
+                  </h3>
+                </div>
+              </summary>
+              <p class="section-questions__details-text">
+                در بوت‌کمپ علاوه بر دسترسی کامل به دوره ها، یک برنامه گام به گام
+                را هم دریافت می کنید که باید طبق آن دوره ها را پیش ببرید و در
+                این مسیر هم تیم منتورینگ کنار شماست. علاوه بر این ها، پروژه ها و
+                تسک های مختلفی‌ برای شما تعریف میشود که باید انجام دهید و در
+                نهایت کدهایتان بررسی میشود. جلسات آنلاین کا شامل کدنویسی، پروژه
+                زدن، رفع اشکال و ... هم وجود دارند.
+              </p>
+            </details>
+            <details class="section-questions__details">
+              <summary class="section-questions__details-summary">
+                <img
+                  class="section-questions__details-summary-icon"
+                  src="./images/arrow.svg"
+                  alt="arrow-down"
+                />
+
+                <div class="section-questions__details-summary-title-wrapper">
+                  <img
+                    class="section-questions__details-summary-title-icon"
+                    src="./images/message-question.svg"
+                    alt="question"
+                  />
+                  <h3 class="section-questions__details-summary-title">
+                    محتوای اموزشی بوت کمپ؟
+                  </h3>
+                </div>
+              </summary>
+              <p class="section-questions__details-text">
+                در بوت‌کمپ علاوه بر دسترسی کامل به دوره ها، یک برنامه گام به گام
+                را هم دریافت می کنید که باید طبق آن دوره ها را پیش ببرید و در
+                این مسیر هم تیم منتورینگ کنار شماست. علاوه بر این ها، پروژه ها و
+                تسک های مختلفی‌ برای شما تعریف میشود که باید انجام دهید و در
+                نهایت کدهایتان بررسی میشود. جلسات آنلاین کا شامل کدنویسی، پروژه
+                زدن، رفع اشکال و ... هم وجود دارند.
+              </p>
+            </details>
+            <details class="section-questions__details">
+              <summary class="section-questions__details-summary">
+                <img
+                  class="section-questions__details-summary-icon"
+                  src="./images/arrow.svg"
+                  alt="arrow-down"
+                />
+
+                <div class="section-questions__details-summary-title-wrapper">
+                  <img
+                    class="section-questions__details-summary-title-icon"
+                    src="./images/message-question.svg"
+                    alt="question"
+                  />
+                  <h3 class="section-questions__details-summary-title">
+                    شرایط شرکت در بوت کمپ؟
+                  </h3>
+                </div>
+              </summary>
+              <p class="section-questions__details-text">
+                در بوت‌کمپ علاوه بر دسترسی کامل به دوره ها، یک برنامه گام به گام
+                را هم دریافت می کنید که باید طبق آن دوره ها را پیش ببرید و در
+                این مسیر هم تیم منتورینگ کنار شماست. علاوه بر این ها، پروژه ها و
+                تسک های مختلفی‌ برای شما تعریف میشود که باید انجام دهید و در
+                نهایت کدهایتان بررسی میشود. جلسات آنلاین کا شامل کدنویسی، پروژه
+                زدن، رفع اشکال و ... هم وجود دارند.
+              </p>
+            </details>
+            <details class="section-questions__details">
+              <summary class="section-questions__details-summary">
+                <img
+                  class="section-questions__details-summary-icon"
+                  src="./images/arrow.svg"
+                  alt="arrow-down"
+                />
+
+                <div class="section-questions__details-summary-title-wrapper">
+                  <img
+                    class="section-questions__details-summary-title-icon"
+                    src="./images/message-question.svg"
+                    alt="question"
+                  />
+                  <h3 class="section-questions__details-summary-title">
+                    پیش نیاز های بوت کمپ؟
+                  </h3>
+                </div>
+              </summary>
+              <p class="section-questions__details-text">
+                در بوت‌کمپ علاوه بر دسترسی کامل به دوره ها، یک برنامه گام به گام
+                را هم دریافت می کنید که باید طبق آن دوره ها را پیش ببرید و در
+                این مسیر هم تیم منتورینگ کنار شماست. علاوه بر این ها، پروژه ها و
+                تسک های مختلفی‌ برای شما تعریف میشود که باید انجام دهید و در
+                نهایت کدهایتان بررسی میشود. جلسات آنلاین کا شامل کدنویسی، پروژه
+                زدن، رفع اشکال و ... هم وجود دارند.
+              </p>
+            </details>
+            <details class="section-questions__details">
+              <summary class="section-questions__details-summary">
+                <img
+                  class="section-questions__details-summary-icon"
+                  src="./images/arrow.svg"
+                  alt="arrow-down"
+                />
+
+                <div class="section-questions__details-summary-title-wrapper">
+                  <img
+                    class="section-questions__details-summary-title-icon"
+                    src="./images/message-question.svg"
+                    alt="question"
+                  />
+                  <h3 class="section-questions__details-summary-title">
+                    من قبلا یادگیری را شروع کرده ام،برایم مناسب است؟
+                  </h3>
+                </div>
+              </summary>
+              <p class="section-questions__details-text">
+                در بوت‌کمپ علاوه بر دسترسی کامل به دوره ها، یک برنامه گام به گام
+                را هم دریافت می کنید که باید طبق آن دوره ها را پیش ببرید و در
+                این مسیر هم تیم منتورینگ کنار شماست. علاوه بر این ها، پروژه ها و
+                تسک های مختلفی‌ برای شما تعریف میشود که باید انجام دهید و در
+                نهایت کدهایتان بررسی میشود. جلسات آنلاین کا شامل کدنویسی، پروژه
+                زدن، رفع اشکال و ... هم وجود دارند.
+              </p>
+            </details>
+          </div>
+          <img
+            class="section-questions__image section-questions__image--two"
+            src="./images/metal-code.svg"
+            alt="code-icon"
+          />
+        </div>
+      </section>
+
+      <!-- section social -->
+      <section class="section-social">
+        <div class="section-social-container">
+          <h2 class="section-social__title">
+            سوالی داری؟ با ما در ارتباط باش 👇
+          </h2>
+
+          <p class="section-social__text">
+            اگر درباره پرداخت، شرایط بوت‌کمپ یا هر موضوع دیگری سوال داری، از یکی
+            از روش‌های زیر با ما ارتباط بگیر.
+          </p>
+
+          <div class="section-social__cards">
+            <div class="section-social__card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="section-social__card-icon section-social__card-icon--telegram"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2Zm4.64 7.19-1.66 7.82c-.12.55-.44.69-.89.43l-2.46-1.81-1.19 1.15c-.13.13-.24.24-.5.24l.18-2.53 4.6-4.16c.2-.18-.04-.28-.31-.1l-5.68 3.58-2.45-.77c-.53-.17-.54-.53.11-.79l9.58-3.69c.44-.16.82.1.67.78Z"
+                ></path>
+              </svg>
+
+              <div class="section-social__card-description">
+                <h3 class="section-social__card-title">
+                  ارتباط از طریق تلگرام
+                </h3>
+
+                <p class="section-social__card-text">پاسخگویی مستقیم و سریع</p>
+              </div>
+            </div>
+
+            <!-- Online Support -->
+            <div class="section-social__card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="section-social__card-icon section-social__card-icon--support"
+              >
+                <path d="M4 12a8 8 0 0 1 16 0"></path>
+                <path d="M4 12v3a2 2 0 0 0 2 2h1v-7H6a2 2 0 0 0-2 2Z"></path>
+                <path d="M20 12v3a2 2 0 0 1-2 2h-1v-7h1a2 2 0 0 1 2 2Z"></path>
+                <path d="M12 20a3 3 0 0 0 3-3"></path>
+              </svg>
+
+              <div class="section-social__card-description">
+                <h3 class="section-social__card-title">پشتیبانی آنلاین سایت</h3>
+
+                <p class="section-social__card-text">
+                  از طریق آیکن پایین صفحه (سمت چپ) با ما گفتگو کنید
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section comments -->
+      <section class="section-comments">
+        <div class="comments__container">
+          <div class="comments__header">
+            <img
+              src="./images/squer.svg"
+              alt="نظرات دانشجویان"
+              class="comments__decoration"
+            />
+
+            <h2 class="comments__title">نظرات دانشجویان</h2>
+          </div>
+
+          <div class="swiper comments__slider">
+            <div class="swiper-wrapper"></div>
+          </div>
+          <div class="comments__footer">
+            <div class="comments__pagination"></div>
+            <div class="comments__actions">
+              <div class="comments__nav-buttons">
+                <button
+                  class="comments__button comments__button--prev"
+                  aria-label="نظر قبلی"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M15.6 6.2A1 1 0 0 0 14 7v2H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h11v2a1 1 0 0 0 .6 1h.4l.6-.2 5.1-4.3a2 2 0 0 0 0-3Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+
+                <button
+                  class="comments__button comments__button--next"
+                  aria-label="نظر بعدی"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M15.6 6.2A1 1 0 0 0 14 7v2H3a1 1 0 0 1-1 1v4a1 1 0 0 1 1 1h11v2a1 1 0 0 0 .6 1h.4l.6-.2 5.1-4.3a2 2 0 0 0 0-3Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              <a href="#" class="comments__link">
+                <span>مشاهده دوره ها</span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="-0.5 0 7 7"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M5.495 2.573 1.5.143C.832-.266 0 .25 0 1.068V5.93c0 .82.832 1.333 1.5.927l3.995-2.43c.673-.41.673-1.445 0-1.855"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section footer -->
+      <footer class="section-footer">
+        <div class="section-footer-container">
+          <div class="section-footer-one">
+            <div class="footer-images">
+              <img src="./images/ZarinPal.webp" alt="zarinpal" />
+              <img src="./images/e-namad.png" alt="e-namad" />
+            </div>
+            <div class="footer-title">
+              <div class="footer-title-container">
+                <div class="footer-title-image">
+                  <img src="./images/logo.png" alt="botostart logo" />
+                </div>
+                <div class="footer-title-wrapper">
+                  <h4>آکادمی بوتواستارت</h4>
+                  <p>پروژه محور، پشتیبانی دائمی، جامع</p>
+                </div>
+              </div>
+              <div class="footer-description">
+                هدف بوتواستارت ارائه‌ی بهترین دوره‌های آموزش برنامه‌نویسی برای
+                ورود به بازار کار است؛ دوره‌هایی جامع، پروژه‌محور و به‌روز که با
+                پشتیبانی دائمی همراه‌اند.
+              </div>
+            </div>
+          </div>
+          <div class="section-footer-two">
+            <img src="./images/instagram.svg" alt="instagram" />
+            <img src="./images/telegram.svg" alt="telegram" />
+            <img src="./images/rubika.png" alt="rubika" />
+            <img src="./images/ble.png" alt="ble" />
+            <img src="./images/aparat.png" alt="aparat" />
+            <img src="./images/github.svg" alt="github" />
+          </div>
+          <div class="section-footer-three">
+            <div class="footer-link-page">
+              <div class="footer-link-page-partOfSite">
+                <h4>بخش های سایت</h4>
+                <ul>
+                  <li>صفحه اصلی</li>
+                  <li>دوره های آموزشی</li>
+                  <li>نقشه راه و مسیر یادگیری</li>
+                  <li>بوت کمپ فرانت اند</li>
+                  <li>پکیج جامع دوره ها</li>
+                </ul>
+              </div>
+              <div class="footer-link-page-otherPages">
+                <h4>دیگر صفحات</h4>
+                <ul>
+                  <li>نظرات دانشجویان</li>
+                  <li>هوش مصنوعی</li>
+                  <li>حساب کاربری</li>
+                  <li>درباره ما</li>
+                  <li>سبد خرید</li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-link-courses">
+              <h4>دوره های بوتواستارت</h4>
+              <div>
+                <ul>
+                  <li>برنامه‌نویسی با هوش مصنوعی</li>
+                  <li>HTML و CSS</li>
+                  <li>ری‌اکت و ریداکس</li>
+                  <li>Node JS و اکسپرس</li>
+                  <li>تیلویند</li>
+                  <li>گیت و گیت‌هاب</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>بوت کمپ فرانت اند</li>
+                  <li>جاوااسکریپت</li>
+                  <li>Next JS</li>
+                  <li>تایپ اسکریپت</li>
+                  <li>SASS</li>
+                  <li>موبایل فرست</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-footer-heart">
+          <p>ساخته شده با ❤️ در پادگان</p>
+          <span>v3.1.0</span>
+        </div>
+      </footer>
+
+      <div class="support">
+        <svg viewBox="0 0 120 120">
+          <path
+            d="M60.19,53.75a3,3,0,1,0,3.06,3A3,3,0,0,0,60.19,53.75Zm-11.37,0a3,3,0,1,0,3.06,3A3,3,0,0,0,48.81,53.75Zm45.94,4A35,35,0,1,0,52.75,92v12.76s14.55-4.25,30.53-19.28C94.68,74.74,94.75,59.41,94.75,59.41l0,0C94.74,58.87,94.75,58.3,94.75,57.72Zm-10.14.6s0,10.64-8,18.09A57.93,57.93,0,0,1,53,89.8V80.34A24.29,24.29,0,1,1,84.61,57.16c0,.4,0,.8,0,1.19ZM70.69,53.75a3,3,0,1,0,3.06,3A3,3,0,0,0,70.69,53.75Z"
+            transform="translate(0.25 0.25)"
+            style="fill: #ffffff"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

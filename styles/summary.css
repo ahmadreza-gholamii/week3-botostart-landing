@@ -1,0 +1,24 @@
+
+/* section-summary */
+.section-summary {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px auto 10px;
+}
+.section-summary__title {
+  font-size: clamp(1.5rem, 2vw, 1.85rem);
+  font-weight: 800;
+  color: var(--text-color);
+  text-shadow: 0 5px 5px #00000022;
+
+}
+.section-summary__text {
+  padding-top: 8px;
+  font-size: clamp(0.875rem, 1.2vw, 0.9rem);
+  color: var(--text-color);
+  line-height: 2;
+  text-align: justify;
+  font-weight: 400;
+}
